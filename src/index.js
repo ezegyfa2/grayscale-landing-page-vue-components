@@ -4,5 +4,7 @@ export default {
 		require('grayscale-vue-components').default.install(Vue);
 		require('description-vue-components').default.install(Vue);
 		require('helper-vue-components').default.install(Vue);
+
+		Vue.component('grayscale-landing-page', require('./LandingPage.vue').default);
 	}
 };
