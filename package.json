@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ezegyfa2/grayscale-landing-page-vue-components/issues"
   },
-  "homepage": "https://github.com/ezegyfa2/grayscale-landing-page-vue-components#readme"
+  "homepage": "https://github.com/ezegyfa2/grayscale-landing-page-vue-components#readme",
+  "dependencies": {
+    "description-vue-components": "^1.0.3",
+    "grayscale-vue-components": "^1.0.6",
+    "helper-vue-components": "^1.0.1",
+    "text-contents-vue-components": "^1.0.4"
+  }
 }
