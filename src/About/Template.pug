@@ -1,0 +1,7 @@
+section.about-section.text-center
+    .container.px-4.px-lg-5
+        .row.gx-4.gx-lg-5.justify-content-center
+            dynamic-component(
+                v-bind:component_infos='text_section'
+            )
+        img.img-fluid(v-bind:src='image_url' v-bind:alt='image_alt')

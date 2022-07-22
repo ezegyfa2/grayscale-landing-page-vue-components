@@ -1,0 +1,12 @@
+@import '../globals.scss';
+
+.title {
+    font-family: $titleFontFamily;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.content {
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+}

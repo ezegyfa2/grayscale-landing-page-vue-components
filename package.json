@@ -1,6 +1,6 @@
 {
   "name": "grayscale-landing-page-vue-components",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -20,6 +20,7 @@
     "description-vue-components": "^1.0.3",
     "grayscale-vue-components": "^1.0.6",
     "helper-vue-components": "^1.0.1",
-    "text-contents-vue-components": "^1.0.4"
+    "text-contents-vue-components": "^1.0.4",
+    "just-clone": "^3.2.1"
   }
 }

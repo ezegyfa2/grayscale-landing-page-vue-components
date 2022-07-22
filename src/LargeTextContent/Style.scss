@@ -1,0 +1,17 @@
+@import "./../../../text-contents-vue-components/src/LargeTextContent/Style.scss";
+@import "../globals.scss";
+
+.title {
+    font-family: $titleFontFamily;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.content {
+    font-family: $contentFontFamily;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+}

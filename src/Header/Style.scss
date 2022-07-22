@@ -1,0 +1,17 @@
+@import "./../../../helper-vue-components/src/Header/Style.scss";
+
+.masterhead {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("background.jpg");
+}
+@media (max-width: 992px) {
+    .masterhead {
+        height: auto;
+        padding: 15rem 0;
+    }
+}
+@media (min-width: 992px) {
+    .masterhead {
+        height: 100vh;
+        padding: 0;
+    }
+}

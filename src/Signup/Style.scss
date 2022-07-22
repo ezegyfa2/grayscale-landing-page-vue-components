@@ -1,0 +1,19 @@
+.signup-section {
+    padding: 10rem 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+@media (min-width: 992px) {
+    .main-row {
+        --bs-gutter-x: 3rem;
+    }
+}
+.main-row {
+    --bs-gutter-x: 1.5rem;
+}
+.signup-section {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(background.jpg)
+}

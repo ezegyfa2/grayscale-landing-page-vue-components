@@ -1,0 +1,18 @@
+section.contact-section
+    .container.px-4.px-lg-5
+        .row.gx-4.gx-lg-5
+            .col-md-4.mb-3.mb-md-0
+                dynamic-component(
+                    v-bind:component_infos='address_section'
+                )
+            .col-md-4.mb-3.mb-md-0
+                dynamic-component(
+                    v-bind:component_infos='email_section'
+                )
+            .col-md-4.mb-3.mb-md-0
+                dynamic-component(
+                    v-bind:component_infos='phone_section'
+                )
+        dynamic-component(
+            v-bind:component_infos='icon_links_section'
+        )
