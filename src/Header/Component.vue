@@ -1,5 +1,5 @@
 <script>
-    import Header from './../../../helper-vue-components/src/Header/Component.vue'
+    import Header from './../../../helper-vue-components/src/Headers/Header/Component.vue'
 
     export default {
         mixins: [
