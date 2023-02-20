@@ -23,7 +23,8 @@
                 immediate: true,
                 handler(newTextSection) {
                     newTextSection.data.color = 'white'
-                }
+                },
+                flush: 'sync'
             }
         }
     }
