@@ -5,15 +5,18 @@
         mixins: [
             NavigationBar
         ],
-        data() {
-            return {
-                addedClasses: {
-                    'root': 'navbar-light',
-                    'container': [
-                        'px-4',
-                        'px-lg-5',
-                    ],
-                    'button.navbar-toggler': 'navbar-toggler-right'
+        props: {
+            added_classes: {
+                type: Object,
+                default () {
+                    return{
+                        'root': 'navbar-light',
+                        'container': [
+                            'px-4',
+                            'px-lg-5',
+                        ],
+                        'button.navbar-toggler': 'navbar-toggler-right'
+                    }
                 }
             }
         }

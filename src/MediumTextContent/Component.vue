@@ -5,10 +5,13 @@
         mixins: [
             MediumWhite50TextContent
         ],
-        data() {
-            return {
-                addedClasses: {
-                    '.title': 'mb-4'
+        props: {
+            added_classes: {
+                type: Object,
+                default () {
+                    return {
+                        '.title': 'mb-4'
+                    }
                 }
             }
         }
